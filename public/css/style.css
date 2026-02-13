@@ -1,0 +1,21 @@
+h1{
+    color: green;
+}
+#p1{
+    color: blue;
+}
+#p2, #lorem{
+    color: red;
+    background: lightblue;
+}
+*{
+    background: lightcyan;
+}
+.div1{
+    color: yellow;
+    background: purple;
+}
+.div2{
+    color: green;
+    background: black;
+}

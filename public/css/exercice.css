@@ -1,0 +1,57 @@
+#page{
+    background: red;
+}
+#entete{
+    background: olive;
+
+}
+#centre{
+    background: yellow;
+}
+#menu{
+    background: green;
+}
+#contenu{
+    background: fuchsia;
+}
+#pied{
+    background: lightgoldenrodyellow;
+}
+.gallery{
+    column-count: 5;
+    column-gap: 10px;
+    padding: 8px;
+    animation: autoScroll 10s linear infinite;
+}
+.gallery img{
+    width: 100%;
+    margin-bottom: 16px;
+    break-inside: avoid;
+    border-radius: 5px;
+    transition: transform o.4s ease, box-shadow 0.4s ease;
+}
+.gallery img:hover{
+    transform: scale(1.06);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 2);
+    cursor: pointer;
+}
+.gallery:hover{
+    animation-play-state: paused;
+}
+.card{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9);
+}
+.card h2{
+    margin-bottom: 16px;
+    font-size: 1.4rem;
+}
+.card:hover{
+    transform: scale(1.08);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}

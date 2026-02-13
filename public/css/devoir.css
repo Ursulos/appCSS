@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+header, footer{
+    border: 2px solid black;
+    background: blue;
+    color: white;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+main{
+    background: white;
+    margin: 5px;
+    color: white;
+    height: 800px;
+    display: flex;
+    gap: 10px;
+
+}
+#gauche{
+    width: 30%;
+    border: 3px solid black;
+    background: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#droite{
+    width: 70%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#content1{
+    height: 50%;
+    border: 3px solid black;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bas{
+    height: 50%;
+    display: flex;
+    gap: 10px;
+
+}
+#content2, #content3{
+    width: 50%;
+    border: 3px solid black;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
