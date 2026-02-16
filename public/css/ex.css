@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin: 5px;
+}
+header{
+    background: cyan;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+footer{
+    background: blue;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+main{
+    margin: 5px 10%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.haut{
+    height: 60%;
+    display: flex;
+    gap: 5px;
+    
+}
+.main-content{
+    background: yellowgreen;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar{
+    background: purple;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bas{
+    height: 40%;
+    display: flex;
+    gap: 5px;
+}
+.twin{
+    background: orange;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
