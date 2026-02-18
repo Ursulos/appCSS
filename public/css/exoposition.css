@@ -1,24 +1,175 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    position: relative;
 }
 nav{
-    width: 100%;
-    border: 1px solid black;
-    margin: 5px;
+    width: 880px;
+    height: 40px;
+    margin: 8px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    padding: auto;
+    position: sticky;
 }
 .logo{
+    color: red;
+    font-size: 1.5rem;
     display: flex;
-    justify-content: center;
     align-items: center;
+    font-family: cursive;
+}
+.fa-heart{
+    margin-inline: 5px;
+    color: red;
+
 
 }
 .menu{
+    font-size: 0.8rem;
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    align-items: center;
+    color: grey;
 }
-.pge
+.home:hover{
+    color: red;
+    cursor: pointer;
+}
+.story:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.wedding:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.people:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.gallery:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.rsvp:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.contact:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.page{
+    background: rgba(191, 194, 197, 0.856);
+    width: 880px;
+    height: 50vh;
+    margin: 9px;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+}
+img{
+    float: right;
+    margin-left: 20px;
+    position: absolute;
+    right: 40px;
+    bottom: 1px;
+}
+p{
+    font-size: 3rem;
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+p::first-line{
+    font-size: 2rem;
+    color: red;
+}
+.last-line{
+    color: white;
+    font-size: 1.2rem;
+}
+.fa-circle-check{
+    color: green;
+    margin-right: 5px;
+}
+
+.page2 {
+    position: relative;
+    top: 450px;
+    width: 880px;
+    height: 50vh;
+    margin: 9px;
+    border: 1px solid;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    font-family: cursive;
+}
+    
+.titre-p2{
+    grid-column: span 4 / span 4;
+    display: flex;
+    justify-content: center;
+    color: yellowgreen;
+    font-size: 2.3rem;
+}
+
+.img-jolie img {
+    grid-row: span 3 / span 3;
+    grid-row-start: 2;
+}
+
+.titre-desc-jolie {
+    grid-row-start: 2;
+}
+
+.desc-jolie {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.social-m-jolie {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.img-bratt {
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.titre-desc-bratt{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.desc-bratt {
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+.social-m-bratt {
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+        
