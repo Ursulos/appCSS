@@ -1,0 +1,18 @@
+.container{
+    border: 1px solid black;
+    padding: 10px;
+}
+img{
+    float: right;
+    margin-left: 20px;
+}
+p::first-letter{
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    color: black;
+    margin-right: 20px;
+}
+p::first-line{
+    color: green;
+}
